@@ -18,13 +18,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSArray* strArr = @[@"test1", @"test2", @"blablablablabla", @"blablablablabla",@"blablablablabla", @"qweqfasf", @"123123123", @"test1", @"test2", @"blablablablabla", @"qweqfasf", @"123123123"];
-
+    NSArray* strArr = @[@"test1", @"test2", @"blablablablabla", @"TezTagView",@"Tag view example", @"This tutorial is center align tags"];
     TezTagView* tagView = [[TezTagView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 300) tagStrings:strArr delegate:self];
     [tagView setAlignCenter:YES];
     [tagView setBackgroundColor:[UIColor clearColor]];
     [self.view addSubview:tagView];
+
     
+    CGFloat tagViewHeight = [TezTagView getTotalHeightWithDefaultValuesAndWords:strArr];
+    
+    NSArray* strArr2 = @[@"test3", @"test4", @"blablablablabla", @"TezTagView",@"Tag view example", @"This tutorial is left align tags"];
+    TezTagView* tagViewForLeftAlign = [[TezTagView alloc] initWithFrame:CGRectMake(0, tagViewHeight + 150, self.view.frame.size.width, 300) tagStrings:strArr2 delegate:self];
+    [tagViewForLeftAlign setAlignCenter:NO];
+    [tagViewForLeftAlign setBackgroundColor:[UIColor clearColor]];
+    [self.view addSubview:tagViewForLeftAlign];
+
 }
 
 #pragma mark - TezTagView delegate

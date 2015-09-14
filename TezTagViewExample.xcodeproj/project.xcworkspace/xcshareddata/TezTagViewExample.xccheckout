@@ -10,14 +10,14 @@
 	<string>TezTagViewExample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>995E0AD5920354862ACEFBE998E0F955C022F3CB</key>
+		<key>07593AD40F249A2514010251365213D8D6DA3518</key>
 		<string>https://github.com/ptswin/TezTagView.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>TezTagViewExample.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>995E0AD5920354862ACEFBE998E0F955C022F3CB</key>
+		<key>07593AD40F249A2514010251365213D8D6DA3518</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>995E0AD5920354862ACEFBE998E0F955C022F3CB</string>
+	<string>07593AD40F249A2514010251365213D8D6DA3518</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>995E0AD5920354862ACEFBE998E0F955C022F3CB</string>
+			<string>07593AD40F249A2514010251365213D8D6DA3518</string>
 			<key>IDESourceControlWCCName</key>
 			<string>TezTagViewExample</string>
 		</dict>
