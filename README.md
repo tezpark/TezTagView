@@ -2,7 +2,7 @@
 TezTagView will make tag buttons that automatically aligned on UIView.
 
 
-* Easy custom tag buttons.
+* Simple custom tag buttons.
 * Easy modifing button UI and size.
 
 ![ios simulator screen shot 2015 9 14 3 20 51](https://cloud.githubusercontent.com/assets/389004/9843376/76f38426-5af4-11e5-8a2f-a655492518bf.png)
