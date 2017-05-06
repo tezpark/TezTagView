@@ -11,7 +11,7 @@ TezTagView will make tag buttons that automatically aligned on UIView.
 
 ![ios simulator screen shot 2015 9 14 3 20 51](https://cloud.githubusercontent.com/assets/389004/9843376/76f38426-5af4-11e5-8a2f-a655492518bf.png)
 
-#Usage
+# Usage
 ```objective-c
     // String array for tag button.
     NSArray* strArr = @[@"test1", @"test2", @"blablablablabla", @"TezTagView", @"This tutorial is center align tags"];
@@ -34,7 +34,7 @@ TezTagView will make tag buttons that automatically aligned on UIView.
 ```
 
 
-#License
+# License
 The MIT License (MIT)
 
 Copyright (c) 2015 Taesun Park
